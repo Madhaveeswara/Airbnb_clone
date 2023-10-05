@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+body {
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    color: rgba(239, 14, 100, 0.952);
+}
+
+.icon-1 {
+    background-color: rgba(239, 14, 100, 0.952);
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-left: 100px;
+    margin-bottom: -60px;
+}
+
+.btn-1 {
+    background-color: white;
+    border: none;
+    border-right: 1px solid lightgrey;
+    font-size: 14px;
+    
+}
+
+.btn-2 {
+    background-color: white;
+    border: none;
+    border-right: 1px solid lightgrey;
+    font-size: 14px;
+}
+
+.btn-3 {
+    background-color: white;
+    border: none;
+    color: gray;
+    font-size: 14px;
+}
+
+
+.btn-4 {
+    background-color: white;
+    border: none;
+    border-right: 1px solid lightgrey;
+    background-color: rgba(239, 14, 100, 0.952);
+    color: white;
+    width: 25px;
+    height: 25px;
+    margin-left: 2px;
+    border-radius: 50%;
+}
+
+.search-section-1 {
+    border-radius: 40px;
+    border: 2px solid lightgray;
+    width: 275px;
+    height: 30px;
+    padding: 10px 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.nav-icons-btn {
+
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    /* height: 35px;
+    width: 80px; */
+    
+}
+
+.search-section-1, .btn-1, .btn-2, .btn-3, .btn-4, .logo, .icon-globe, .icons-profile {
+    cursor: pointer;
+}
+
+
+.icon-2-1 {
+    width: 30px;
+    height: 30px;
+}
+.icon-2-2 {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 18px;
+    background-color: white;
+}
+
+.stickynav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.side-section {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.icons-profile {
+    display: flex;
+    gap: 6px;
+    color: rgb(64, 62, 62);
+    align-items: center;
+}
+
+.icon-2-1, .icon-2-2 {
+    color: rgb(64, 62, 62);
+}
+
+.side-section-1 > a{
+    text-decoration: none;
+    color: rgb(64, 62, 62);
+    font-size: 14px;
+}
+
+section {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-weight: 100;
+}
+
+.card {
+   width: 280px;
+   /* border: 1px solid lightgray; */
+   border: none;
+   padding: 2px 2px;
+   border-radius: 14px;
+   margin: 15px;
+   box-sizing: border-box;
+   flex-grow: 1;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.light-text {
+    color: lightgray;
+}
+
+.dark-text {
+    color: black;
+}
+
+.desc {
+    margin: 3px;
+}
+
+.desc-price {
+
+    color: black;
+    margin-top: 16px;
+}
+
+.main-container {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.card-header {
+   position: relative;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.like-icon{
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin: 14px;
+   background-color: rgba(63, 59, 59, 0);
+   color: white;
+}
+
+.card-desc {
+    width: 200px;
+}
+
+.card-rating {
+    width: 46px;
+    display: flex;
+    gap: 2px;
+ }
+
+ .fill-colour {
+    background-color: black;
+ }
+
+ .ft-links {
+    text-decoration: none;
+    color: grey;
+ }
+
+ .misc-ft-links {
+    text-decoration: none;
+    color: grey;
+    margin-right: 6px;
+ }
+
+ .dot-color {
+    color: grey;
+ }
+
+ .footer-links {
+    margin-top: 25px;
+    margin-bottom: 25px;
+ }
+
+ .misc-links {
+    margin-top: 25px;
+    margin-bottom: 25px;
+ }
+
+ .footer-flex {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .social-icons {
+    display: inline-block;
+    margin-left: 14px;
+ }
